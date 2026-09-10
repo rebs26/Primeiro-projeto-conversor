@@ -10,9 +10,9 @@ function convertValues(){
     const cotacoes = {
         brasil: 1,
         dolar: 5.2,
-        Euro: 6.2,
-        Libra: 6.8,
-        DES: 7.22
+        Euro: 5.92,
+        Libra: 6.9,
+        DES: 7.0
     }
 
     const moedaOrigem = currencySelectFrom.value
@@ -141,7 +141,7 @@ function changeCurrencyFrom() {
         }
 
         if(currencySelectFrom.value == "DES"){
-            currencyNameFrom.innerHTML = "Direitos especiais de saque (DES)";
+            currencyNameFrom.innerHTML = "Direito especial de saque (DES)";
             currencyImgFrom.src = "./assets/des.png";
         }
 
